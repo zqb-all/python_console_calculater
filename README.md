@@ -24,6 +24,9 @@ echo "alias pcc='$(pwd)/console_calculater.py'" >> ~/.bashrc
 source ~/.bashrc
 pcc 1+0x10
 ```
+## Example
+![](pcc.png)
+
 # python_console_calculate 中文版本说明
 
 ## python_console_calculate 是什么
@@ -31,7 +34,7 @@ python_console_calculate 是一个简单的python脚本, 用于辅助在控制�
 使用python进行计算，然后将结果用多种格式显示出来，例如十六进制，
 十进制，八进制，二进制。
 我们还可以自行定制格式，例如将每个比特和序号一起显示，并将所有的
-'1'显示为红色。这对于需要检测寄存器的人是很有用的。
+'1'显示为红色。这对于需要检查寄存器的人是很有用的。
 
 ## 如何使用
 从github下载
